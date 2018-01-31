@@ -1,0 +1,81 @@
+body{
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    padding-top: 8.5em;
+}
+footer{
+    background-color: #333333;
+    color: #dddddd;
+    padding: 2em;
+    text-align: center;
+}
+html,body{
+    height: 100%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.activity-section {
+    margin: 50px;
+}
+.activity-element {
+    text-align: center;
+}
+.activity-element img {
+    width: 150px;
+    height: 150px;
+}
+.navbar {
+    padding: 2em 1em;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    opacity: 0.9;
+}
+
+.fill-screen{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.contact-us {
+    margin: 10em;
+    text-align: center;
+    display: inline;
+}
+
+.content-filler{
+    min-height: 50em;
+}
+.fixed-attachment{
+background-attachment: fixed;
+}
+#carouselExampleIndicators{
+    margin: 10px auto;
+}
+#carouselExampleIndicators img{
+    width:100%;
+    height: auto;
+    margin:auto;
+}
+
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+
+}
